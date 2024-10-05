@@ -20,10 +20,16 @@ Basic knowledge of command-line interface (CLI).
 # inquirer
 Module Purpose: inquirer is a popular Node.js library used to create interactive command-line interfaces (CLI). It allows developers to prompt users for inputs in the terminal.
 How it’s used: In this project, inquirer.prompt() is used to ask the user for a URL or a message that will be converted into a QR code.
+# Installation
+npm install inquirer
+or
+yarn add inquirer
 
 # qr-image
 Module Purpose: qr-image is a library that generates QR codes in image formats such as PNG or SVG.
 How it’s used: After the user enters the URL or message, the input is passed to qr-image to generate a QR code in PNG format, which is saved to the file system.
+# Installing
+npm install qr-image
 
 # fs (File System)
 Module Purpose: fs is the built-in Node.js module for interacting with the file system, allowing reading and writing of files.
