@@ -1,2 +1,2 @@
-# QR_Code_Generator_with_JavaScript_Node_Modules
-A Node.js application that generates a QR code for a user-provided URL or message, saves it as a PNG file, stores the URL in a text file, and deletes the QR code image after 10 seconds.
+## QR Code Generator with Auto Deletion
+This project is a Node.js-based CLI application that allows users to generate a QR code for any URL or message, save it as a PNG image, and store the inputted URL/message in a text file. The QR code image is automatically deleted after 10 seconds to ensure space efficiency.
