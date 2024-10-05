@@ -13,5 +13,21 @@ Node.js installed on your machine.
 Basic knowledge of command-line interface (CLI).
 
 ## Install the dependencies:
-npm install
+ npm install
 
+ This project utilizes three main Node.js modules:  inquirer, qr-image, and fs. Here's an overview of what each module does in the code:
+
+# inquirer
+Module Purpose: inquirer is a popular Node.js library used to create interactive command-line interfaces (CLI). It allows developers to prompt users for inputs in the terminal.
+How it’s used: In this project, inquirer.prompt() is used to ask the user for a URL or a message that will be converted into a QR code.
+
+# qr-image
+Module Purpose: qr-image is a library that generates QR codes in image formats such as PNG or SVG.
+How it’s used: After the user enters the URL or message, the input is passed to qr-image to generate a QR code in PNG format, which is saved to the file system.
+
+# fs (File System)
+Module Purpose: fs is the built-in Node.js module for interacting with the file system, allowing reading and writing of files.
+How it’s used:
+The fs.createWriteStream() function is used to save the generated QR code image to a file.
+fs.writeFile() saves the user's input (the URL or message) to a text file (URL.txt).
+fs.unlink() is used to delete the QR code image (qr_code.png) after 10 seconds.
