@@ -1,5 +1,5 @@
 ## QR Code Generator with JavaScript, Node Modules
-<img src="QR_Code.png" alt="QR Code" style="border-radius: 15px; width: 1000px; height: 400px;">
+<img src="QR_Code.png" alt="QR Code" style="border-radius: 15px; width: 900px; height: 300px;">
 
 
 This project is a **Node.js-based CLI application** that allows users to generate a QR code for any URL or message, save it as a PNG image, and store the inputted URL/message in a text file. The QR code image is automatically deleted after 10 seconds to ensure space efficiency.
